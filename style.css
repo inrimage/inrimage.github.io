@@ -1,0 +1,17 @@
+p,h1,h2,h3,ol,ul {
+ font-family: "Trebuchet MS", sans-serif;
+}
+a { 
+  text-decoration: none; 
+  font-weight: normal; }
+a:hover { 
+  text-decoration: overline underline; 
+  background-color: #FFAAAA;
+}
+h1 { 
+  background-color: #AAAAAA;
+}
+
+h2 {
+   text-align: center;
+}
