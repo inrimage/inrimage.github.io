@@ -220,34 +220,34 @@
 <div id="content">
 <h1 class="title">Inrimage official Home Page</h1>
 
-<div id="outline-container-orgcf6a320" class="outline-2">
-<h2 id="orgcf6a320">Last version: 4.6.9 (november 2021)</h2>
-<div class="outline-text-2" id="text-orgcf6a320">
+<div id="outline-container-org0adec83" class="outline-2">
+<h2 id="org0adec83">Last version: 4.6.9 (november 2021)</h2>
+<div class="outline-text-2" id="text-org0adec83">
 <ul class="org-ul">
 <li>Inrimage was hosted on Inria Forge (as a private project), but
 the forge is definitively shutdown. Source code is now available
 <a href="https://gitlab.lip6.fr/inrimage/inrimage">here</a>.</li>
-<li>Documentation (in french) available <a href="https://www-pequan.lip6.fr/~bereziat/inrimage/WWW">here</a></li>
-<li>Last distribution available in <a href="https://www-pequan.lip6.fr/~bereziat/inrimage/dist/">these repertories</a> (sources files and some packaging)</li>
-<li>Missing packaging may be obtained <a href="mailto:dominique.bereziat@lip6.fr">on request</a></li>
-<li>New: support for Raspbian</li>
+<li>Documentation (in french) available <a href="https://www-pequan.lip6.fr/~bereziat/inrimage/WWW">here</a>.</li>
+<li>Last distribution available in <a href="https://www-pequan.lip6.fr/~bereziat/inrimage/dist/">these repertories</a> (sources files and some packaging).</li>
+<li>Missing packaging may be obtained <a href="mailto:dominique.bereziat@lip6.fr">on request</a>.</li>
+<li>New: support for Raspbian.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org85f817a" class="outline-2">
-<h2 id="org85f817a">Installation</h2>
-<div class="outline-text-2" id="text-org85f817a">
+<div id="outline-container-org2055e82" class="outline-2">
+<h2 id="org2055e82">Installation</h2>
+<div class="outline-text-2" id="text-org2055e82">
 </div>
-<div id="outline-container-org1ae52fd" class="outline-3">
-<h3 id="org1ae52fd">Debian/Ubuntu/Raspbian</h3>
-<div class="outline-text-3" id="text-org1ae52fd">
+<div id="outline-container-org2585e20" class="outline-3">
+<h3 id="org2585e20">Debian/Ubuntu/Raspbian</h3>
+<div class="outline-text-3" id="text-org2585e20">
 <div class="org-src-container">
-<pre class="src src-bash">$ wget http://inrimage.gforge.inria.fr/dist/4.6.8/inrimage_4.6.8-jessie_amd64.deb
+<pre class="src src-bash">$ wget https://www-pequan.lip6.fr/~bereziat/inrimage/dist//4.6.8/inrimage_4.6.8-jessie_amd64.deb
   <span style="color: #b22222;"># </span><span style="color: #b22222;">OR if you use Ubuntu</span>
-$ wget http://inrimage.gforge.inria.fr/dist/4.6.8/inrimage_4.6.8-xenial_amd64.deb
+$ wget https://www-pequan.lip6.fr/~bereziat/inrimage/dist//4.6.8/inrimage_4.6.8-xenial_amd64.deb
   <span style="color: #b22222;"># </span><span style="color: #b22222;">OR if you use Raspbian</span>
-$ wget http://inrimage.gforge.inria.fr/dist/4.6.8/inrimage_4.6.8-debian_armhf.deb
+$ wget https://www-pequan.lip6.fr/~bereziat/inrimage/dist/4.6.8/inrimage_4.6.8-debian_armhf.deb
   <span style="color: #b22222;"># </span><span style="color: #b22222;">then:</span>
 $ sudo dpkg -i inrimage_4.6.8-{your_system}.deb
 $ sudo aptitude install inrimage
@@ -256,11 +256,11 @@ $ sudo aptitude install inrimage
 </div>
 </div>
 
-<div id="outline-container-org2e001c6" class="outline-3">
-<h3 id="org2e001c6">Fedora/RedHat/CentOS</h3>
-<div class="outline-text-3" id="text-org2e001c6">
+<div id="outline-container-orga7785ba" class="outline-3">
+<h3 id="orga7785ba">Fedora/RedHat/CentOS</h3>
+<div class="outline-text-3" id="text-orga7785ba">
 <div class="org-src-container">
-<pre class="src src-bash">$ wget http://inrimage.gforge.inria.fr/dist/4.6.8/inrimage-4.6.8-static_R1.x86_64.rpm 
+<pre class="src src-bash">$ wget https://www-pequan.lip6.fr/~bereziat/inrimage/dist/4.6.8/inrimage-4.6.8-static_R1.x86_64.rpm 
 $ su 
 $ rpm -iv inrimage-4.6.8-static_R1.x86_64.rpm 
 </pre>
@@ -268,9 +268,9 @@ $ rpm -iv inrimage-4.6.8-static_R1.x86_64.rpm
 </div>
 </div>
 
-<div id="outline-container-org510be4b" class="outline-3">
-<h3 id="org510be4b">Mac OSX</h3>
-<div class="outline-text-3" id="text-org510be4b">
+<div id="outline-container-org5119fe7" class="outline-3">
+<h3 id="org5119fe7">Mac OSX</h3>
+<div class="outline-text-3" id="text-org5119fe7">
 <ul class="org-ul">
 <li><p>
 The recommanded way is to use <a href="http://brew.sh">Homebrew</a>. First install Homebrew:
@@ -292,7 +292,7 @@ or manually, install dependencies and compile:
 </p>
 <div class="org-src-container">
 <pre class="src src-bash">$ brew install libjpeg libpng netpbm libtiff libmpeg2 jasper gtk+ gcc wget
-$ wget http://inrimage.gforge.inria.fr/dist/4.6.8/inrimage-4.6.8.tar.gz
+$ wget https://www-pequan.lip6.fr/~bereziat/inrimage/dist/4.6.8/inrimage-4.6.8.tar.gz
 $ tar xvfz inrimage-4.6.8.tar.gz
 $ cd inrimage-4.6.8
 $ ./configure --prefix=/usr/local/inrimage
@@ -310,9 +310,9 @@ can been found at this location:
 </div>
 </div>
 
-<div id="outline-container-org839cf2c" class="outline-3">
-<h3 id="org839cf2c">Windows</h3>
-<div class="outline-text-3" id="text-org839cf2c">
+<div id="outline-container-org2d5e004" class="outline-3">
+<h3 id="org2d5e004">Windows</h3>
+<div class="outline-text-3" id="text-org2d5e004">
 <ul class="org-ul">
 <li>You first have to install <a href="http://x.cygwin.com/">Cygwin/X</a>, or &lt;a href="<a href="https://docs.microsoft.com/en-us/windows/wsl/about">https://docs.microsoft.com/en-us/windows/wsl/about</a>"&gt;Windows
 Subsystem Linux&lt;/a&gt;.  Then you can try to compile inrimage.</li>
